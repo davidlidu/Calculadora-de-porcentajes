@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentajes</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <h1>Calcula el porcentaje</h1>
+    <div class="cajacontenedora">
+        <h4>Con esta herramienta puedes calcular el porcentaje de un valor</h4>
+        <div class="calculador">
+            <div class="izquierda">
+                <input id="input1" onchange="console.log('cambio1')" type="number" placeholder="Ingresa el porcentaje %"> <!--con onchange escucho lo que cuando el input es modificado o cambia y puedo ejecutar una acción en Jscript-->
+                <input id="input2" onchange="console.log('cambio2')" type="number" placeholder="Ingresa valor a calcular"> 
+            </div>
+            <div class="derecha">
+                <button id="btn_calcular">Calcular</button> <!--Con onclick llamo la función que está dentro del archivo de Jscript-->
+            </div>
+        </div>
+    </div>
+    <p class="resultado">Ingresa los números y presiona calcular...</p>
+    <script src="./script.js"></script>
+</body>
+</html>

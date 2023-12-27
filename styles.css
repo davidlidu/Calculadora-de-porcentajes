@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    font-family: Montserrat;
+    background-color: darkcyan;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+
+h4{
+    padding: 0 20% 0 20%;
+    text-align: center;
+    margin-top: 0;
+}
+.cajacontenedora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkslategrey;
+    padding: 30px;
+    width: 300px;
+    border-radius: 15px;
+}
+.calculador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.izquierda, .derecha{
+    width: 50%;
+    text-align: end;
+}
+button{
+    padding: 10%;
+    border-radius: 15px;
+    font-weight: bold;
+    border: 0;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
